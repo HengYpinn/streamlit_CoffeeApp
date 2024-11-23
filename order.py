@@ -207,8 +207,8 @@ def customer_order():
                                         {"price": stripe_price['id'], "quantity": 1}
                                     ],
                                     mode="payment",
-                                    success_url="https://example.com/success",
-                                    cancel_url="https://example.com/cancel",
+                                    success_url="https://appcoffeeapp-7bmxg7hufgmtyg2iwwfycr.streamlit.app/",
+                                    cancel_url="https://appcoffeeapp-7bmxg7hufgmtyg2iwwfycr.streamlit.app/",
                                 )
 
                                 # Open the checkout session URL
