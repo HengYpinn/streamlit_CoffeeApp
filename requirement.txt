@@ -1,9 +1,0 @@
-streamlit==1.40.0
-pandas==2.1.1
-google-cloud-firestore==2.19.0
-firebase-admin==6.6.0
-stripe==5.0.0
-python-dotenv==1.1.0
-requests==2.31.0
-Pillow==10.1.0
-plotly==6.0.0
