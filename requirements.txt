@@ -4,3 +4,4 @@ google-cloud-firestore==2.10.3
 firebase-admin==6.1.0
 stripe==4.3.0
 plotly==5.11.0
+numpy==1.26.4
