@@ -2,6 +2,6 @@ streamlit==1.37.0
 pandas==1.5.3
 google-cloud-firestore==2.17.1
 firebase-admin==6.1.0
-stripe==4.3.0
-plotly==5.11.0
+stripe==11.3.0
+plotly==5.16.0
 numpy==1.26.4
