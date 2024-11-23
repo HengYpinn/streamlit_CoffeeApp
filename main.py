@@ -12,6 +12,7 @@ from order_history import order_history
 from pickup_notification import pickup_notification
 from feedback import feedback
 from notification import notification_management
+from about_us import about_us
 from utils import validate_branch_inventory
 
 # Initialize session state
@@ -30,12 +31,13 @@ else:
                 "Analytics Dashboard",
                 "Promotions & Discounts",
                 "Notification",
+                "About Us"
             ],
         )
     else:
         nav = st.sidebar.radio(
             "Customer Navigation",
-            ["Order", "Order History", "Pickup Notification", "Feedback"],
+            ["Order", "Order History", "Pickup Notification", "Feedback", "About Us"],
         )
 
     # Logout button
@@ -56,6 +58,8 @@ else:
             promotions_management()
         elif nav == "Notification":
             notification_management()
+        elif nav == "About Us":
+            about_us()
     else:
         if nav == "Order":
             customer_order()
@@ -65,3 +69,5 @@ else:
             pickup_notification()
         elif nav == "Feedback":
             feedback()
+        elif nav == "About Us":
+            about_us()
