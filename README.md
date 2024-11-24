@@ -87,7 +87,7 @@ streamlit_CoffeeApp/
 ├── sales_reporting/         # Sales reporting logic
 ├── utils/                   # Utility functions
 ├── requirements.txt         # Dependencies
-└── .streamlit/secrets.toml  # Secrets file (not for public repositories)```
+└── .streamlit/secrets.toml  # Secrets file (not for public repositories)
 ```
 ## 📝 License
 
